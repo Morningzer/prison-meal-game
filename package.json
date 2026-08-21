@@ -1,0 +1,46 @@
+{
+  "name": "hengwen-laofan",
+  "version": "1.0.0",
+  "description": "恒温牢饭 - Phaser 像素剧情游戏",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "cross-env NODE_ENV=dev electron .",
+    "build": "electron-builder --win"
+  },
+  "author": "",
+  "license": "private",
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.hengwen.laofan",
+    "productName": "恒温牢饭",
+    "files": [
+      "index.html",
+      "libs/**",
+      "src/data.js",
+      "src/game.js",
+      "main.js",
+      "preload.js"
+    ],
+    "win": {
+      "target": ["nsis", "portable"],
+      "icon": "build/icon.ico",
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "恒温牢饭"
+    },
+    "portable": {
+      "artifactName": "恒温牢饭-便携版-${version}.exe"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# Dependencies (Electron build deps, 454M)
+node_modules/
+
+# Build output (Electron dist, 471M) — published via GitHub Releases instead
+dist/
+
+# WorkBuddy project data
+.workbuddy/
+
+# Dev screenshots / diagnostics
+_shots/
+_diag2.js
+
+# Backup copies
+*.bak
