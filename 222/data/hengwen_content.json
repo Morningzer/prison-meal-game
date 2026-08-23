@@ -1,0 +1,3855 @@
+{
+  "title": "恒温牢饭 · 最后一道菜",
+  "subtitle": "灰烬监狱 · 厨房",
+  "chapterTitle": "温汤裹谎",
+  "totalDays": 5,
+  "tagEffects": {
+    "家庭": {
+      "trust": 8,
+      "guilt": 4,
+      "anger": -4
+    },
+    "安慰": {
+      "trust": 8,
+      "anger": -5,
+      "fear": -4
+    },
+    "童年": {
+      "trust": 6,
+      "guilt": 5
+    },
+    "温柔": {
+      "trust": 6,
+      "anger": -4
+    },
+    "朴素": {
+      "trust": 3,
+      "anger": -2
+    },
+    "中性": {
+      "trust": 2
+    },
+    "安全感": {
+      "trust": 4,
+      "fear": -4
+    },
+    "记忆": {
+      "guilt": 6,
+      "suspicion": 3
+    },
+    "诱导": {
+      "guilt": 4,
+      "suspicion": 5,
+      "trust": -2
+    },
+    "虚假温柔": {
+      "guilt": 4,
+      "suspicion": 5
+    },
+    "痛苦": {
+      "fear": 6,
+      "anger": 5
+    },
+    "挑衅": {
+      "anger": 7,
+      "fear": 4
+    },
+    "清醒": {
+      "fear": 2,
+      "guilt": 3
+    },
+    "疼痛": {
+      "anger": 5,
+      "fear": 3
+    },
+    "羞辱": {
+      "fear": 8,
+      "anger": 6,
+      "suspicion": 6,
+      "trust": -8
+    },
+    "恐惧": {
+      "fear": 8,
+      "anger": 4,
+      "suspicion": 5
+    },
+    "玩笑": {
+      "fear": 3,
+      "anger": -3
+    },
+    "拒绝": {
+      "anger": 6,
+      "suspicion": 4,
+      "trust": -6
+    },
+    "厌恶": {
+      "anger": 5,
+      "fear": 4
+    },
+    "刺激": {
+      "anger": 5,
+      "fear": 4
+    },
+    "油腻": {
+      "anger": 3
+    },
+    "失败": {
+      "anger": 4,
+      "fear": 4,
+      "guilt": 3
+    },
+    "失神": {
+      "guilt": 4,
+      "fear": 2
+    },
+    "认真": {
+      "trust": 1
+    },
+    "平淡": {},
+    "轻蔑": {
+      "anger": 2,
+      "fear": 2
+    }
+  },
+  "methods": [
+    {
+      "id": "stew",
+      "name": "炖煮",
+      "tag": "柔软",
+      "desc": "柔软、治愈"
+    },
+    {
+      "id": "bake",
+      "name": "烘烤",
+      "tag": "温暖",
+      "desc": "稳定、温暖"
+    },
+    {
+      "id": "fry",
+      "name": "煎制",
+      "tag": "刺激",
+      "desc": "刺激、疼痛"
+    },
+    {
+      "id": "deepfry",
+      "name": "油炸",
+      "tag": "刺激",
+      "desc": "刺激、油腻"
+    }
+  ],
+  "platings": [
+    {
+      "id": "neat",
+      "name": "整齐",
+      "tag": "认真"
+    },
+    {
+      "id": "plain",
+      "name": "朴素",
+      "tag": "平淡"
+    },
+    {
+      "id": "fancy",
+      "name": "精致",
+      "tag": "诱导"
+    },
+    {
+      "id": "ugly",
+      "name": "恐怖造型",
+      "tag": "轻蔑"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "roumi",
+      "name": "软米",
+      "tags": [
+        "家庭",
+        "安慰",
+        "童年"
+      ],
+      "color": 15259808,
+      "punishment": false
+    },
+    {
+      "id": "niunai",
+      "name": "牛奶",
+      "tags": [
+        "家庭",
+        "安慰",
+        "温柔"
+      ],
+      "color": 15921126,
+      "punishment": false
+    },
+    {
+      "id": "bingtang",
+      "name": "冰糖",
+      "tags": [
+        "安慰",
+        "温柔",
+        "记忆"
+      ],
+      "color": 15393736,
+      "punishment": false
+    },
+    {
+      "id": "wenshui",
+      "name": "温水",
+      "tags": [
+        "朴素",
+        "中性",
+        "安全感"
+      ],
+      "color": 12572896,
+      "punishment": false
+    },
+    {
+      "id": "lajiao",
+      "name": "辣椒",
+      "tags": [
+        "痛苦",
+        "挑衅",
+        "清醒"
+      ],
+      "color": 12597547,
+      "punishment": false
+    },
+    {
+      "id": "yecai",
+      "name": "野菜",
+      "tags": [
+        "朴素",
+        "中性",
+        "失败"
+      ],
+      "color": 7311194,
+      "punishment": false
+    },
+    {
+      "id": "fengmi",
+      "name": "蜂蜜",
+      "tags": [
+        "记忆",
+        "诱导",
+        "虚假温柔"
+      ],
+      "color": 14723387,
+      "punishment": false
+    },
+    {
+      "id": "chongxing",
+      "name": "虫形软糕",
+      "tags": [
+        "羞辱",
+        "恐惧",
+        "玩笑"
+      ],
+      "color": 8109930,
+      "punishment": true
+    },
+    {
+      "id": "caomi",
+      "name": "糙米",
+      "tags": [
+        "失败",
+        "朴素",
+        "中性"
+      ],
+      "color": 13218426,
+      "punishment": false
+    }
+  ],
+  "recipes": [
+    {
+      "id": "wentian_migeng",
+      "name": "温甜米羹",
+      "ingredients": [
+        "niunai",
+        "wenshui"
+      ],
+      "method": "stew",
+      "tags": [
+        "安慰",
+        "家庭",
+        "温柔"
+      ],
+      "special": "wentian_migeng",
+      "triggerArc": "su_wan",
+      "forWhom": "su_wan",
+      "note": "牛奶+温水+炖煮 → 苏晚破防，解锁【亲人甜食执念】C004"
+    },
+    {
+      "id": "qingku_yecaizhou",
+      "name": "清苦野菜粥",
+      "ingredients": [
+        "yecai",
+        "wenshui"
+      ],
+      "method": "stew",
+      "tags": [
+        "朴素",
+        "中性",
+        "失败"
+      ],
+      "special": "qingku_yecaizhou",
+      "triggerArc": "su_wan",
+      "forWhom": "su_wan",
+      "note": "野菜+温水+炖煮 → 苏晚“该吃苦”。解锁【自我惩罚倾向】C005"
+    },
+    {
+      "id": "jiaohu_tangshui",
+      "name": "焦糊糖水",
+      "ingredients": [
+        "lajiao",
+        "wenshui"
+      ],
+      "method": "fry",
+      "overcook": true,
+      "tags": [
+        "失败",
+        "羞辱",
+        "痛苦"
+      ],
+      "special": "jiaohu_tangshui",
+      "triggerArc": "su_wan",
+      "forWhom": "su_wan",
+      "note": "辣椒+温水+煎制+过焦 → 苏晚自认“不配温柔”。C006"
+    },
+    {
+      "id": "weila_qingtang",
+      "name": "微辣清汤",
+      "ingredients": [
+        "lajiao",
+        "bingtang"
+      ],
+      "method": "fry",
+      "tags": [
+        "刺激",
+        "挑衅",
+        "清醒"
+      ],
+      "special": "weila_qingtang",
+      "triggerArc": "su_wan",
+      "forWhom": "su_wan",
+      "note": "辣椒+冰糖+煎制 → 打破清淡习惯触发应激。C007"
+    },
+    {
+      "id": "suitang_miandian",
+      "name": "碎糖面点",
+      "ingredients": [
+        "roumi",
+        "fengmi"
+      ],
+      "method": "bake",
+      "tags": [
+        "安慰",
+        "温柔"
+      ],
+      "special": "suitang_miandian",
+      "triggerArc": "su_wan",
+      "forWhom": "su_wan",
+      "platingExclude": "ugly",
+      "note": "软米+蜂蜜+烘烤（非恐怖造型） → 小幅信任，无深迷。C002"
+    },
+    {
+      "id": "chongxing_ruangao",
+      "name": "虫形软糕",
+      "ingredients": [
+        "roumi",
+        "fengmi"
+      ],
+      "method": "bake",
+      "plating": "ugly",
+      "tags": [
+        "恐惧",
+        "羞辱",
+        "玩笑"
+      ],
+      "special": "chongxing_ruangao",
+      "triggerArc": "su_wan",
+      "forWhom": "su_wan",
+      "note": "软米+蜂蜜+恐怖造型 → 大幅提升恐惧，易得假线索。"
+    },
+    {
+      "id": "hengwen_naigeng_truth",
+      "name": "恒温奶羹·真相",
+      "ingredients": [
+        "fengmi",
+        "niunai",
+        "bingtang"
+      ],
+      "method": "bake",
+      "tags": [
+        "童年",
+        "家庭",
+        "温柔"
+      ],
+      "special": "hengwen_naigeng_truth",
+      "triggerArc": "su_wan",
+      "forWhom": "su_wan",
+      "statsGate": {
+        "trust": 20,
+        "guilt": 15
+      },
+      "note": "恒温奶羹满足条件时的深化版本，直接引出顶罪真相（需信任≥20 且 愧疚≥15）。"
+    },
+    {
+      "id": "hengwen_naigeng",
+      "name": "恒温奶羹",
+      "ingredients": [
+        "fengmi",
+        "niunai",
+        "bingtang"
+      ],
+      "method": "bake",
+      "tags": [
+        "童年",
+        "家庭",
+        "温柔"
+      ],
+      "special": "hengwen_naigeng",
+      "triggerArc": "su_wan",
+      "forWhom": "su_wan",
+      "statsGate": {
+        "trust": -1
+      },
+      "note": "不满足“真相”门槛时的哨兵版，章节高潮前奏。"
+    },
+    {
+      "id": "yingli_caomifan",
+      "name": "硬粒糙米饭",
+      "ingredients": [],
+      "method": "",
+      "overcook": true,
+      "tags": [
+        "失败",
+        "生硬"
+      ],
+      "special": "yingli_caomifan",
+      "triggerArc": "su_wan",
+      "forWhom": "all",
+      "note": "任意食材+过焦 → 失败线兜底。"
+    }
+  ],
+  "prisoners": [
+    {
+      "id": "su_wan",
+      "name": "苏晚",
+      "number": "S001",
+      "age": 24,
+      "crime": "过失重伤·包庇",
+      "place": "灰区307",
+      "fileTruth": "档案记载：疏忽操作器械致人重伤，事后包庇同伴，态度良好，判处终身监禁。",
+      "secret": "真实无罪。弟弟苏屿（17岁）撞见监狱长篡改档案的现场被控制；苏晚为换取弟弟的人身安全与正常人生，自愿顶罪。",
+      "personality": [
+        "隐忍",
+        "温顺",
+        "护短",
+        "自卑",
+        "极度愧疚"
+      ],
+      "weaknesses": [
+        "提及亲人时剧烈波动",
+        "过度认罪",
+        "对温柔极度自卑"
+      ],
+      "dislikes": [
+        "焦苦",
+        "生硬",
+        "辛辣",
+        "怪异造型料理"
+      ],
+      "startingStats": {
+        "trust": 10,
+        "fear": 15,
+        "anger": 5,
+        "guilt": 40,
+        "suspicion": 35,
+        "hunger": 20
+      },
+      "taste": {
+        "ingredient": {
+          "niunai": "喜欢",
+          "roumi": "喜欢",
+          "wenshui": "温和",
+          "yecai": "温和",
+          "fengmi": "喜欢",
+          "bingtang": "喜欢",
+          "lajiao": "厌恶",
+          "chongxing": "厌恶",
+          "caomi": "厌恶"
+        },
+        "tag": {
+          "温柔": "+",
+          "安慰": "+",
+          "家庭": "+",
+          "童年": "+",
+          "朴素": "+",
+          "中性": "=",
+          "刺激": "-",
+          "痛苦": "-",
+          "羞辱": "--",
+          "恐惧": "--",
+          "失败": "-",
+          "记忆": "=",
+          "安全感": "+"
+        },
+        "dislikeDish": [
+          "yingli_caomifan"
+        ]
+      },
+      "dailyDialogue": {
+        "d1": [
+          "d1_talk"
+        ],
+        "d2": [
+          "d2_talk"
+        ],
+        "d3": [
+          "d3_talk"
+        ],
+        "d4": [
+          "su_d4"
+        ],
+        "d5": [
+          "su_d5"
+        ]
+      },
+      "narrative": {
+        "intro": null,
+        "open": null,
+        "end": null
+      },
+      "arc": {
+        "baseDialogue": "d1_talk",
+        "secretClueIds": [
+          "C008",
+          "C009",
+          "C010",
+          "C011"
+        ],
+        "triggerDish": "r_hengwen_naigeng_truth",
+        "done": false
+      },
+      "lineSteps": {
+        "collect": [
+          "C001",
+          "C203",
+          "C405"
+        ]
+      }
+    },
+    {
+      "id": "laotu",
+      "name": "老屠",
+      "number": "S014",
+      "age": 56,
+      "crime": "故意伤害·杀害狱友",
+      "place": "灰区211",
+      "fileTruth": "外号“屠夫”。故意伤害，狱中杀害狱友，众犯避之。屡教不改，态度恶劣。",
+      "secret": "被监狱长激为“替身刽子手”。监狱长需要杀鸡儆猴，让他充当残忍狱霸，实为配合演戏。他唯一的软肋是女儿，被监狱长拿捏。",
+      "personality": [
+        "外凶内惧",
+        "卑微",
+        "渴望赎罪",
+        "极怕“反噬”"
+      ],
+      "weaknesses": [
+        "提到女儿会瞬间破功",
+        "给朴素/干净远比丰盛更让他动摇"
+      ],
+      "dislikes": [
+        "甜腻取笑的食物",
+        "被怜悯"
+      ],
+      "startingStats": {
+        "trust": 8,
+        "fear": 30,
+        "anger": 40,
+        "guilt": 20,
+        "suspicion": 40,
+        "hunger": 20
+      },
+      "taste": {
+        "ingredient": {
+          "wenshui": "喜欢",
+          "yecai": "喜欢",
+          "caomi": "喜欢",
+          "niunai": "温和",
+          "fengmi": "厌恶",
+          "bingtang": "温和",
+          "chongxing": "厌恶",
+          "lajiao": "厌恶",
+          "roumi": "温和"
+        },
+        "tag": {
+          "朴素": "+",
+          "中性": "+",
+          "温柔": "=",
+          "安慰": "=",
+          "刺激": "-",
+          "疼痛": "-",
+          "羞辱": "--",
+          "恐惧": "-",
+          "失败": "-",
+          "油腻": "--",
+          "安全感": "="
+        },
+        "dislikeDish": [
+          "yingli_caomifan",
+          "chongxing_ruangao"
+        ]
+      },
+      "dailyDialogue": {
+        "d1": [
+          "lt_d1_talk"
+        ],
+        "d2": [
+          "lt_d2_talk"
+        ],
+        "d3": [
+          "lt_d3_talk"
+        ],
+        "d4": [
+          "lt_d4_talk"
+        ],
+        "d5": [
+          "lt_d5_talk"
+        ]
+      },
+      "narrative": {
+        "intro": null,
+        "open": null,
+        "end": null
+      },
+      "arc": {
+        "baseDialogue": "lt_d1_talk",
+        "secretClueIds": [
+          "C104",
+          "C105",
+          "C106",
+          "C107"
+        ],
+        "triggerDish": null,
+        "done": false
+      }
+    },
+    {
+      "id": "baizhu",
+      "name": "白术",
+      "number": "S027",
+      "age": 45,
+      "crime": "非法行医致人死",
+      "place": "灰区089",
+      "fileTruth": "未获资质行医，致患者死亡。隐瞒病史，判处服刑。",
+      "secret": "他是林诚失踪前最后一夜救助过的助手，手里有那份被删的化验报告残件。被监狱长威胁封口，习惯“说半句藏半句”。",
+      "personality": [
+        "清醒",
+        "恐惧",
+        "谨慎",
+        "习惯性撒谎以自保"
+      ],
+      "weaknesses": [
+        "质疑他的专业判断会激怒他",
+        "验证过他的信息(不拆穿)又让他信任"
+      ],
+      "dislikes": [
+        "甜食、丰盛(疑为收买)"
+      ],
+      "startingStats": {
+        "trust": 15,
+        "fear": 35,
+        "anger": 8,
+        "guilt": 15,
+        "suspicion": 55,
+        "hunger": 20
+      },
+      "taste": {
+        "ingredient": {
+          "yecai": "喜欢",
+          "caomi": "喜欢",
+          "wenshui": "温和",
+          "fengmi": "厌恶",
+          "bingtang": "温和",
+          "niunai": "温和",
+          "lajiao": "温和",
+          "chongxing": "厌恶",
+          "roumi": "厌恶"
+        },
+        "tag": {
+          "记忆": "+",
+          "清醒": "+",
+          "朴素": "+",
+          "中性": "=",
+          "温柔": "=",
+          "失败": "=",
+          "痛苦": "-",
+          "刺激": "-",
+          "虚假温柔": "--",
+          "安慰": "=",
+          "家庭": "="
+        },
+        "dislikeDish": [
+          "chongxing_ruangao",
+          "suitang_miandian"
+        ]
+      },
+      "dailyDialogue": {
+        "d1": [
+          "bz_d1_talk"
+        ],
+        "d2": [
+          "bz_d2_talk"
+        ],
+        "d3": [
+          "bz_d3_talk"
+        ],
+        "d4": [
+          "bz_d4_talk"
+        ],
+        "d5": [
+          "bz_d5_talk"
+        ]
+      },
+      "narrative": {
+        "intro": null,
+        "open": null,
+        "end": null
+      },
+      "arc": {
+        "baseDialogue": "bz_d1_talk",
+        "secretClueIds": [
+          "C204",
+          "C205"
+        ],
+        "triggerDish": null,
+        "done": false
+      }
+    },
+    {
+      "id": "aying",
+      "name": "阿萤",
+      "number": "S041",
+      "age": 19,
+      "crime": "纵火·毁坏档案",
+      "place": "灰区174",
+      "fileTruth": "纵火毁坏档案室，精神混乱，创伤性失忆。",
+      "secret": "她曾是档案抄录员，记性极好，无意中背下最完整的“篡改原件”。纵火是监狱长嫁祸，她的“混乱”是恐惧加药物所致。",
+      "personality": [
+        "看似脆弱",
+        "天真",
+        "词不达意",
+        "实则敏感清醒"
+      ],
+      "weaknesses": [
+        "需要安全感、童年类料理",
+        "给温柔能安抚，给刺激会崩",
+        "甜食唤起记忆碎片"
+      ],
+      "dislikes": [
+        "辣椒、煎炸",
+        "大声、逼近"
+      ],
+      "startingStats": {
+        "trust": 20,
+        "fear": 45,
+        "anger": 6,
+        "guilt": 10,
+        "suspicion": 30,
+        "hunger": 20
+      },
+      "taste": {
+        "ingredient": {
+          "roumi": "喜欢",
+          "niunai": "喜欢",
+          "fengmi": "喜欢",
+          "bingtang": "喜欢",
+          "wenshui": "温和",
+          "yecai": "温和",
+          "lajiao": "厌恶",
+          "caomi": "温和",
+          "chongxing": "厌恶"
+        },
+        "tag": {
+          "安全感": "+",
+          "温柔": "+",
+          "童年": "+",
+          "家庭": "+",
+          "安慰": "+",
+          "朴素": "+",
+          "中性": "=",
+          "恐惧": "--",
+          "刺激": "--",
+          "疼痛": "-",
+          "羞辱": "--",
+          "失败": "-"
+        },
+        "dislikeDish": [
+          "yingli_caomifan"
+        ]
+      },
+      "dailyDialogue": {
+        "d1": [
+          "ay_d1_talk"
+        ],
+        "d2": [
+          "ay_d2_talk"
+        ],
+        "d3": [
+          "ay_d3_talk"
+        ],
+        "d4": [
+          "ay_d4_talk"
+        ],
+        "d5": [
+          "ay_d5_talk"
+        ]
+      },
+      "narrative": {
+        "intro": null,
+        "open": null,
+        "end": null
+      },
+      "arc": {
+        "baseDialogue": "ay_d1_talk",
+        "secretClueIds": [
+          "C301",
+          "C305"
+        ],
+        "triggerDish": null,
+        "done": false
+      }
+    },
+    {
+      "id": "zhong",
+      "name": "钟队长",
+      "number": "S055",
+      "age": 52,
+      "crime": "酷刑虐待犯人",
+      "place": "灰区003",
+      "fileTruth": "曾任狱警，酷刑虐待犯人，已被内部处分入狱。",
+      "secret": "他是唯一执行过林诚“灭口前夜”押送的人，也是唯一见过监狱长如何把犯人“归零”的人。他入狱是监狱长灭口失败，他自己揽下罪以保家人。",
+      "personality": [
+        "沉默",
+        "负重",
+        "自我厌弃",
+        "纪律崩坏后的忏悔"
+      ],
+      "weaknesses": [
+        "极度厌恶“体制”，但自己曾是其爪牙",
+        "给“冷漠/普通”料理反而坦白(不羞辱他才有可能)"
+      ],
+      "dislikes": [
+        "任何精致、丰盛(讽刺他)",
+        "被嘲讽"
+      ],
+      "startingStats": {
+        "trust": 8,
+        "fear": 25,
+        "anger": 15,
+        "guilt": 55,
+        "suspicion": 20,
+        "hunger": 20
+      },
+      "taste": {
+        "ingredient": {
+          "caomi": "喜欢",
+          "yecai": "喜欢",
+          "wenshui": "喜欢",
+          "niunai": "温和",
+          "roumi": "温和",
+          "fengmi": "厌恶",
+          "bingtang": "温和",
+          "lajiao": "厌恶",
+          "chongxing": "厌恶"
+        },
+        "tag": {
+          "中性": "+",
+          "朴素": "+",
+          "失败": "=",
+          "记忆": "=",
+          "温柔": "-",
+          "安慰": "-",
+          "虚假温柔": "--",
+          "羞辱": "--",
+          "恐惧": "=",
+          "安全感": "="
+        },
+        "dislikeDish": [
+          "suitang_miandian",
+          "chongxing_ruangao"
+        ]
+      },
+      "dailyDialogue": {
+        "d1": [
+          "zh_d1_talk"
+        ],
+        "d2": [
+          "zh_d2_talk"
+        ],
+        "d3": [
+          "zh_d3_talk"
+        ],
+        "d4": [
+          "zh_d4_talk"
+        ],
+        "d5": [
+          "zh_d5_talk"
+        ]
+      },
+      "narrative": {
+        "intro": null,
+        "open": null,
+        "end": null
+      },
+      "arc": {
+        "baseDialogue": "zh_d1_talk",
+        "secretClueIds": [
+          "C404",
+          "C405"
+        ],
+        "triggerDish": null,
+        "done": false
+      }
+    }
+  ],
+  "global": {
+    "satisfaction": 50,
+    "dailyBudget": {
+      "bigPot": 1,
+      "smallBowl": 1,
+      "dialogue": 2
+    },
+    "inventoryTotal": 6,
+    "moodTone": {
+      "high": "暖橙",
+      "mid": "灰黄",
+      "low": "冷红"
+    },
+    "moodColor": {
+      "high": "#f4d35e",
+      "mid": "#c9b27a",
+      "low": "#8a2a2a"
+    },
+    "satisfactionHistory": []
+  },
+  "clues": {
+    "clue_timeline": {
+      "id": "clue_timeline",
+      "type": "情感",
+      "name": "初见·灰区307",
+      "desc": "灰区307，犯人苏晚。广播称无特殊管控，允许定制料理。"
+    },
+    "C001": {
+      "id": "C001",
+      "type": "情感",
+      "name": "沉默的自保",
+      "desc": "“吵闹没用，安静才能少惹麻烦。”——她在用沉默自保。"
+    },
+    "C002": {
+      "id": "C002",
+      "type": "情感",
+      "name": "过往甜汤记忆",
+      "desc": "她总给别人做甜汤，可惜没人再喝了。"
+    },
+    "C003": {
+      "id": "C003",
+      "type": "半真半假",
+      "name": "过度认罪的反常",
+      "desc": "认罪过于干脆，远超普通罪犯，恐有隐情。"
+    },
+    "C004": {
+      "id": "C004",
+      "type": "情感",
+      "name": "亲人甜食执念",
+      "desc": "温甜米羹勾起她对亲人甜食的记忆。"
+    },
+    "C005": {
+      "id": "C005",
+      "type": "情感",
+      "name": "自我惩罚倾向",
+      "desc": "清苦野菜粥下她自言“本就该吃苦”。"
+    },
+    "C006": {
+      "id": "C006",
+      "type": "情感",
+      "name": "对温柔的极度自卑",
+      "desc": "焦糊糖水让她自认“不配温柔”。"
+    },
+    "C007": {
+      "id": "C007",
+      "type": "情感",
+      "name": "刻意克制的喜好",
+      "desc": "微辣清汤打破清淡习惯，她明显应激。"
+    },
+    "C008": {
+      "id": "C008",
+      "type": "真实",
+      "name": "顶罪保护无辜者",
+      "desc": "她替真正的无辜者顶罪——那人只是撞见不该看的东西。"
+    },
+    "C009": {
+      "id": "C009",
+      "type": "真实",
+      "name": "被保护的弟弟",
+      "desc": "她唯一的弟弟苏屿，17岁，被监狱长胁迫。"
+    },
+    "C010": {
+      "id": "C010",
+      "type": "主线",
+      "name": "监狱长的口头协议",
+      "desc": "苏晚递来碎纸条：监狱长曾口头承诺，认罪就放她弟弟苏屿走——但没留任何字据。"
+    },
+    "C011": {
+      "id": "C011",
+      "type": "主线",
+      "name": "亲人的执念",
+      "desc": "她深夜低语：“我弟弟也喜欢这个味道。”——顶罪链的动机，第一次带着温度露出来。"
+    },
+    "clue_2315": {
+      "id": "clue_2315",
+      "type": "主线",
+      "name": "C010 监狱长的口头协议",
+      "desc": "连续三次安慰料理，她私下递出碎纸条：监狱长口头协议。"
+    },
+    "clue_signal": {
+      "id": "clue_signal",
+      "type": "主线",
+      "name": "M001 监狱规则篡改真相",
+      "desc": "规则从不讲对错，监狱长篡改判决与真相。"
+    },
+    "fake_record": {
+      "id": "fake_record",
+      "type": "假",
+      "name": "伪造的过失证词",
+      "desc": "公开档案中“过失致人重伤”的描述存在夸大与伪造痕迹，与真实伤情并不相符。"
+    },
+    "timeline_conflict": {
+      "id": "timeline_conflict",
+      "type": "时间线",
+      "name": "矛盾的时间线",
+      "desc": "案发当晚的官方记录时间，与苏屿的不在场时间存在明显矛盾。"
+    },
+    "C101": {
+      "id": "C101",
+      "type": "情感",
+      "name": "被标榜的恶",
+      "desc": "所有人都怕他，他也厌恶被怜悯——他的“凶”像是被安排好的。"
+    },
+    "C102": {
+      "id": "C102",
+      "type": "情感",
+      "name": "女儿在人手里",
+      "desc": "提到女儿他瞬间僵住。一个连狱友都敢杀的“屠夫”，眼里全是卑微。"
+    },
+    "C103": {
+      "id": "C103",
+      "type": "半真半假",
+      "name": "演戏的狱霸",
+      "desc": "他暗示：有些罪名不是他犯的，是“放”在他头上的。"
+    },
+    "C104": {
+      "id": "C104",
+      "type": "主线",
+      "name": "监狱长灭口名单",
+      "desc": "他隐约听到风声——自己和一帮“知道太多”的人，都在一份名单上。"
+    },
+    "C105": {
+      "id": "C105",
+      "type": "主线",
+      "name": "黑名单",
+      "desc": "恐惧让他供出：名单上的名字，会被一个个“归零”。"
+    },
+    "C106": {
+      "id": "C106",
+      "type": "主线",
+      "name": "名单·女儿",
+      "desc": "他低声说出女儿的名字也在名单上——那是他被捏住的手。"
+    },
+    "C107": {
+      "id": "C107",
+      "type": "真实",
+      "name": "名单·归零",
+      "desc": "名单上的人会被“归零”，被当成从没存在过。"
+    },
+    "C201": {
+      "id": "C201",
+      "type": "半真半假",
+      "name": "半真半假",
+      "desc": "他总是说半句藏半句，每个答案都留着一个缺口。"
+    },
+    "C202": {
+      "id": "C202",
+      "type": "情感",
+      "name": "他说谎的样子",
+      "desc": "你注意到他撒谎时有个固定动作——真正危险的，是他主动递来的“实话”。"
+    },
+    "C203": {
+      "id": "C203",
+      "type": "主线",
+      "name": "林诚那一夜",
+      "desc": "他低声提起“林师傅那一夜”——那是十年前，一个档案主治医师失踪的夜。"
+    },
+    "C204": {
+      "id": "C204",
+      "type": "真实",
+      "name": "删掉的化验",
+      "desc": "他手里有被删的化验报告残件，与林诚有关，也指向监狱长的签章。"
+    },
+    "C205": {
+      "id": "C205",
+      "type": "主线",
+      "name": "黑纽扣来源",
+      "desc": "化验指向那颗黑色纽扣——纹路与监狱长办公室一致。真相开始显形。"
+    },
+    "C301": {
+      "id": "C301",
+      "type": "情感",
+      "name": "语言碎片",
+      "desc": "她词不达意，但偶尔漏出“完整的纸”——那些被一页页划掉的档案。"
+    },
+    "C302": {
+      "id": "C302",
+      "type": "半真半假",
+      "name": "我看到完整的纸",
+      "desc": "甜食让她浮现记忆，“好多字，一条一条被划掉”——她见过原件。"
+    },
+    "C303": {
+      "id": "C303",
+      "type": "真实",
+      "name": "纵火的真相",
+      "desc": "她极度怕火。她的“纵火案”是嫁祸，而那场火是监狱长点的。"
+    },
+    "C304": {
+      "id": "C304",
+      "type": "真实",
+      "name": "药物的真相",
+      "desc": "她并不疯了，只是每天都在被喂一种让记忆模糊的药。"
+    },
+    "C305": {
+      "id": "C305",
+      "type": "主线",
+      "name": "原件下落",
+      "desc": "若给予足够安全感，她会拼出原文关键词——监狱长签名与整条顶罪链。"
+    },
+    "C401": {
+      "id": "C401",
+      "type": "情感",
+      "name": "我不配谈这个",
+      "desc": "全狱最该被唾弃的人，他自愿领最差的牢房，不愿任何人接近他。"
+    },
+    "C402": {
+      "id": "C402",
+      "type": "情感",
+      "name": "押送那一夜",
+      "desc": "给你普通饭，他反而触动——他押送过一个人，那一夜是他一生的分岔。"
+    },
+    "C403": {
+      "id": "C403",
+      "type": "真实",
+      "name": "“归零”手法",
+      "desc": "他低声：“有些犯人……被归零了。”——被当作从未存在过。"
+    },
+    "C404": {
+      "id": "C404",
+      "type": "主线",
+      "name": "监狱长亲手做的",
+      "desc": "他承认押过林诚最后一程——那份铁证，是监狱长亲手签的。"
+    },
+    "C405": {
+      "id": "C405",
+      "type": "主线",
+      "name": "全链条",
+      "desc": "他供出整条顶罪链：从选人、要挟、篡档到“归零”，一环不落。"
+    }
+  },
+  "dialogues": {
+    "d1_talk": {
+      "speaker": "苏晚",
+      "text": "（声音轻柔微弱，带着细微颤抖）我知道。这里的每个人，我都记得。谢谢你……愿意过来。",
+      "choices": [
+        {
+          "text": "“档案写你性格很温顺，一直都这么安静吗？”",
+          "next": "d1_a"
+        },
+        {
+          "text": "“你平时最喜欢吃什么口味的食物？”",
+          "next": "d1_b"
+        },
+        {
+          "text": "“你对自己的判决，没有任何异议吗？”",
+          "next": "d1_c"
+        },
+        {
+          "text": "（先默默打量这间牢房）",
+          "next": "d1_d"
+        }
+      ]
+    },
+    "d1_a": {
+      "speaker": "苏晚",
+      "text": "（指尖攥紧衣角，头更低）吵闹没有用。在这里，安静才能少惹麻烦。我不想再添麻烦了。",
+      "choices": [
+        {
+          "text": "（记下：沉默的自保）",
+          "effects": {
+            "trust": 3,
+            "suspicion": 5
+          },
+          "set": [
+            "C001"
+          ],
+          "next": "d1_back"
+        }
+      ]
+    },
+    "d1_b": {
+      "speaker": "苏晚",
+      "text": "（首次轻轻抬眼）甜的、温的就好。以前……我总给别人做甜汤。可惜，没人再喝了。",
+      "choices": [
+        {
+          "text": "（记下：甜汤记忆）",
+          "effects": {
+            "trust": 8,
+            "guilt": 6
+          },
+          "set": [
+            "C002"
+          ],
+          "next": "d1_back"
+        }
+      ]
+    },
+    "d1_c": {
+      "speaker": "苏晚",
+      "text": "（身体瞬间僵硬）没有异议。是我的错，我认罪。所有都是我该承担的。",
+      "choices": [
+        {
+          "text": "（记下：过度认罪）",
+          "effects": {
+            "trust": -6,
+            "anger": 2,
+            "guilt": 10,
+            "suspicion": 12
+          },
+          "set": [
+            "C003",
+            "fake_record"
+          ],
+          "next": "d1_back"
+        }
+      ]
+    },
+    "d1_d": {
+      "speaker": "苏晚",
+      "text": "（安静地垂着眼，等你开口）……",
+      "choices": [
+        {
+          "text": "（继续）",
+          "next": "d1_back"
+        }
+      ]
+    },
+    "d1_back": {
+      "speaker": "系统",
+      "text": "（第一天对话结束。去灶台做饭，看她的反应。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "d2_talk": {
+      "speaker": "苏晚",
+      "text": "你看过我的档案了。",
+      "choices": [
+        {
+          "text": "“我看过所有人的档案。”",
+          "next": "d2_a"
+        },
+        {
+          "text": "“今天有甜的。（你妹妹也喜欢吧）”",
+          "next": "d2_b"
+        },
+        {
+          "text": "“那就不谈家人。”",
+          "next": "d2_c"
+        }
+      ]
+    },
+    "d2_a": {
+      "speaker": "苏晚",
+      "text": "那你应该知道，我没有弟弟。",
+      "choices": [
+        {
+          "text": "“档案里没有弟弟，但不代表你没有。”",
+          "effects": {
+            "suspicion": 10,
+            "trust": -5
+          },
+          "set": [
+            "C009",
+            "su_wan_family_secret"
+          ],
+          "next": "d2_back"
+        },
+        {
+          "text": "“你们连档案都能改，还有什么是真的？”",
+          "effects": {
+            "suspicion": 8,
+            "trust": -3
+          },
+          "set": [
+            "C009"
+          ],
+          "next": "d2_back"
+        }
+      ]
+    },
+    "d2_b": {
+      "speaker": "苏晚",
+      "text": "（沉默良久）……",
+      "choices": [
+        {
+          "text": "（等她开口）",
+          "effects": {
+            "fear": 8,
+            "guilt": 8
+          },
+          "set": [
+            "C002",
+            "su_wan_family_secret"
+          ],
+          "next": "d2_back"
+        }
+      ]
+    },
+    "d2_c": {
+      "speaker": "苏晚",
+      "text": "你比他们聪明一点。",
+      "choices": [
+        {
+          "text": "（她愿意多说几句）",
+          "effects": {
+            "trust": 8
+          },
+          "set": [
+            "understands"
+          ],
+          "next": "d2_back"
+        }
+      ]
+    },
+    "d2_back": {
+      "speaker": "系统",
+      "text": "（第二天对话结束。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "d3_talk": {
+      "speaker": "苏晚",
+      "text": "他们来过了。",
+      "choices": [
+        {
+          "text": "“谁？”",
+          "next": "d3_a"
+        },
+        {
+          "text": "“你到底在保护谁？”",
+          "next": "d3_b"
+        },
+        {
+          "text": "（不说话，等她继续）",
+          "next": "d3_c"
+        }
+      ]
+    },
+    "d3_a": {
+      "speaker": "苏晚",
+      "text": "来收拾厨房的人。——不是这个厨房。",
+      "choices": [
+        {
+          "text": "“你到底在保护谁？”",
+          "next": "d3_b"
+        }
+      ]
+    },
+    "d3_b": {
+      "speaker": "苏晚",
+      "text": "我弟弟。他才17岁。监狱长说，只要我认罪，就放他走。",
+      "choices": [
+        {
+          "text": "“所以你是替他顶罪？”",
+          "effects": {
+            "trust": 6,
+            "guilt": 4
+          },
+          "set": [
+            "C009",
+            "su_wan_family_secret",
+            "timeline_conflict"
+          ],
+          "next": "d3_back"
+        },
+        {
+          "text": "“你是在保护一个无辜的人？”",
+          "effects": {
+            "trust": 4
+          },
+          "set": [
+            "C008",
+            "timeline_conflict"
+          ],
+          "next": "d3_back"
+        }
+      ]
+    },
+    "d3_c": {
+      "speaker": "苏晚",
+      "text": "我弟弟。他什么都没做。",
+      "choices": [
+        {
+          "text": "（记下）",
+          "effects": {
+            "trust": 4
+          },
+          "set": [
+            "C009"
+          ],
+          "next": "d3_back"
+        }
+      ]
+    },
+    "d3_back": {
+      "speaker": "系统",
+      "text": "（第三天对话结束。去做最后一顿饭。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "su_d4": {
+      "speaker": "苏晚",
+      "text": "（压低声音）昨晚 23:15，走廊有人敲了三下。你听见了吗？",
+      "choices": [
+        {
+          "text": "“谁在敲？”",
+          "effects": {
+            "suspicion": 4
+          },
+          "set": [
+            "C010"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“你认识敲的人？”",
+          "effects": {
+            "trust": 4,
+            "guilt": 3
+          },
+          "set": [
+            "C010"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "（递给她一碗温甜米羹）",
+          "effects": {
+            "trust": 6
+          },
+          "set": [
+            "C011"
+          ],
+          "next": "__end__"
+        }
+      ]
+    },
+    "su_d5": {
+      "speaker": "苏晚",
+      "text": "（轻轻摩挲着碗沿）他们今天要带我走。……你做的最后一顿饭，我想吃甜的。",
+      "choices": [
+        {
+          "text": "“你怕什么？”",
+          "effects": {
+            "trust": 4
+          },
+          "next": "su_d5_confess"
+        },
+        {
+          "text": "“你在替谁顶罪？”",
+          "effects": {
+            "suspicion": 2
+          },
+          "next": "su_d5_confess"
+        }
+      ]
+    },
+    "su_d5_confess": {
+      "speaker": "苏晚",
+      "text": "（肩膀颤抖，首次直视你）我弟弟。他什么都没做，撞见监狱长改档案。监狱长说，我认罪，就放他走。",
+      "choices": [
+        {
+          "text": "“我会帮你。”",
+          "effects": {
+            "trust": 10
+          },
+          "set": [
+            "C008",
+            "C009",
+            "clue_signal",
+            "su_wan_truth_break"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“你必须说出监狱长！”",
+          "effects": {
+            "guilt": 8
+          },
+          "set": [
+            "C008",
+            "clue_signal"
+          ],
+          "next": "__end__"
+        }
+      ]
+    },
+    "su_d1_meal": {
+      "speaker": "苏晚",
+      "text": "（鼻尖微动，身体不再紧绷）……很久没吃到这么暖的东西了。谢谢你。",
+      "choices": [
+        {
+          "text": "“想家了？”",
+          "effects": {
+            "trust": 4,
+            "guilt": 3
+          },
+          "set": [
+            "C004"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“只是普通甜汤。”",
+          "effects": {
+            "anger": 3,
+            "suspicion": 2
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "su_d2_meal": {
+      "speaker": "苏晚",
+      "text": "（低头喝，没说话，眼眶却红了）……这个味道，像从前的家。",
+      "choices": [
+        {
+          "text": "“想到谁了？”",
+          "effects": {
+            "trust": 5,
+            "guilt": 4
+          },
+          "set": [
+            "C002"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "（只陪她安静吃完）",
+          "effects": {
+            "trust": 4
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "su_d3_meal": {
+      "speaker": "苏晚",
+      "text": "（她接过碗，指尖顿了顿）你做的饭，让我想起有个人也这样给我盛过。",
+      "choices": [
+        {
+          "text": "“是家人吗？”",
+          "effects": {
+            "trust": 4
+          },
+          "set": [
+            "C004"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "（轻轻把碗推近些）",
+          "effects": {
+            "trust": 5
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "su_d4_meal": {
+      "speaker": "苏晚",
+      "text": "（夜里低声）我弟弟……也喜欢这个味道。",
+      "choices": [
+        {
+          "text": "“他在哪？”",
+          "effects": {
+            "guilt": 5,
+            "trust": 4
+          },
+          "set": [
+            "C011"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“会救出来的。”",
+          "effects": {
+            "trust": 6
+          },
+          "set": [
+            "C011"
+          ],
+          "next": "__end__"
+        }
+      ]
+    },
+    "su_d5_meal": {
+      "speaker": "苏晚",
+      "text": "（她吃完最后一碗，抬头）这顿饭，我会记得一辈子。谢谢你，林烬。",
+      "choices": [
+        {
+          "text": "“记得就好。”",
+          "effects": {
+            "trust": 8,
+            "guilt": 2
+          },
+          "next": "__end__"
+        },
+        {
+          "text": "“一切都会好的。”",
+          "effects": {
+            "trust": 6,
+            "fear": -2
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "lt_d1_talk": {
+      "speaker": "老屠",
+      "text": "（背对着你，声音粗粝）别靠近我。这牢里谁都怕我，你也该怕。",
+      "choices": [
+        {
+          "text": "“我不是来交朋友的。”",
+          "effects": {
+            "trust": 2
+          },
+          "set": [
+            "C101"
+          ],
+          "next": "lt_d1_back"
+        },
+        {
+          "text": "“你女儿……还好吗？”",
+          "effects": {
+            "trust": -3,
+            "suspicion": 5
+          },
+          "next": "lt_d1_back"
+        }
+      ]
+    },
+    "lt_d1_back": {
+      "speaker": "系统",
+      "text": "（老屠不再理你。他身上有种被安排好的“凶”。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "lt_d2_talk": {
+      "speaker": "老屠",
+      "text": "（你端来一碗朴素的糙米汤，他愣住了）……你就给我这个？不羞辱我？",
+      "choices": [
+        {
+          "text": "“吃饱才有力气多想。”",
+          "effects": {
+            "trust": 6,
+            "anger": -3
+          },
+          "set": [
+            "C102"
+          ],
+          "next": "lt_d2_back"
+        },
+        {
+          "text": "“你这种人不配吃好的。”",
+          "effects": {
+            "anger": 8,
+            "trust": -5
+          },
+          "next": "lt_d2_back"
+        }
+      ]
+    },
+    "lt_d2_back": {
+      "speaker": "系统",
+      "text": "（他低头喝汤，手在发抖。你听见他低声念一个名字。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "lt_d3_talk": {
+      "speaker": "老屠",
+      "text": "（声音更低）这牢里的罪名……有几条是真的？我这“背上的命”，是别人放上来的。",
+      "choices": [
+        {
+          "text": "“谁放的？”",
+          "effects": {
+            "fear": 4
+          },
+          "set": [
+            "C103"
+          ],
+          "next": "lt_d3_a"
+        },
+        {
+          "text": "（沉默，等他自己说）",
+          "effects": {
+            "trust": 4
+          },
+          "set": [
+            "C103"
+          ],
+          "next": "lt_d3_a"
+        }
+      ]
+    },
+    "lt_d3_a": {
+      "speaker": "老屠",
+      "text": "……不能说。说了，我女儿就没了。",
+      "choices": [
+        {
+          "text": "（记下：女儿在人手里）",
+          "effects": {
+            "trust": 2
+          },
+          "set": [
+            "C102"
+          ],
+          "next": "lt_d3_back"
+        }
+      ]
+    },
+    "lt_d3_back": {
+      "speaker": "系统",
+      "text": "（老屠沉默了。你更确定：他的“凶”是演的，有人捏着他。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "lt_d4_talk": {
+      "speaker": "老屠",
+      "text": "（四下环顾，压低声音）昨天深夜，我听见有人提我的名字。好像……是一份名单。",
+      "choices": [
+        {
+          "text": "“名单上还有谁？”",
+          "effects": {
+            "fear": 6,
+            "trust": 2
+          },
+          "set": [
+            "C104"
+          ],
+          "next": "lt_d4_back"
+        },
+        {
+          "text": "“别怕，我只是个做饭的。”",
+          "effects": {
+            "trust": 5
+          },
+          "set": [
+            "C104"
+          ],
+          "next": "lt_d4_back"
+        }
+      ]
+    },
+    "lt_d4_back": {
+      "speaker": "系统",
+      "text": "（老屠眼里第一次露出恐惧——那不是演的。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "lt_d5_talk": {
+      "speaker": "老屠",
+      "text": "（颤抖着）名单上的人……会被“归零”，被当成从没存在过。我女儿的命也在上面。",
+      "choices": [
+        {
+          "text": "“我会帮你保住她。”",
+          "effects": {
+            "trust": 8,
+            "guilt": 4
+          },
+          "set": [
+            "C105",
+            "C106",
+            "C107"
+          ],
+          "next": "lt_d5_back"
+        },
+        {
+          "text": "“你只能自己救自己。”",
+          "effects": {
+            "suspicion": 4,
+            "trust": -2
+          },
+          "next": "lt_d5_back"
+        }
+      ]
+    },
+    "lt_d5_back": {
+      "speaker": "系统",
+      "text": "（黑名单在你脑中成形——监狱长的手伸得太长了。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "lt_d1_meal": {
+      "speaker": "老屠",
+      "text": "（他盯着碗，粗声粗气）……谢了。这牢里没人给我盛过饭。",
+      "choices": [
+        {
+          "text": "“吃饱了才有力气。”",
+          "effects": {
+            "trust": 4
+          },
+          "next": "__end__"
+        },
+        {
+          "text": "（不多说，转身走）",
+          "effects": {
+            "trust": 2
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "lt_d2_meal": {
+      "speaker": "老屠",
+      "text": "（低头喝，手在抖，低声）……我女儿，也该有人给她盛饭。",
+      "choices": [
+        {
+          "text": "“她多大了？”",
+          "effects": {
+            "trust": 5,
+            "guilt": 3
+          },
+          "set": [
+            "C102"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "（拍了拍他的肩）",
+          "effects": {
+            "trust": 5
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "lt_d3_meal": {
+      "speaker": "老屠",
+      "text": "（他扒完最后一口，忽然开口）这牢里的罪名……我不全是白背的。",
+      "choices": [
+        {
+          "text": "“哪些不是？”",
+          "effects": {
+            "fear": 4,
+            "trust": 3
+          },
+          "set": [
+            "C104"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“我都知道。”",
+          "effects": {
+            "trust": 5
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "lt_d4_meal": {
+      "speaker": "老屠",
+      "text": "（他把碗里的汤喝得干干净净）你能保我女儿的命，这条命就是你的。",
+      "choices": [
+        {
+          "text": "“我一定做到。”",
+          "effects": {
+            "trust": 7
+          },
+          "set": [
+            "C105"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“先别急着谢。”",
+          "effects": {
+            "trust": 4,
+            "suspicion": 3
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "lt_d5_meal": {
+      "speaker": "老屠",
+      "text": "（他对着空碗，声音沙哑）谢谢你。就算是假的，我也当是真的信了。",
+      "choices": [
+        {
+          "text": "“是真的。”",
+          "effects": {
+            "trust": 8
+          },
+          "set": [
+            "C105"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "（沉默地收拾碗筷）",
+          "effects": {
+            "trust": 6,
+            "anger": -2
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "bz_d1_talk": {
+      "speaker": "白术",
+      "text": "（态度圆滑）新来的厨子？这牢里的事，知道得越少越好。",
+      "choices": [
+        {
+          "text": "“我只想知道怎么不饿死。”",
+          "effects": {
+            "trust": 2
+          },
+          "next": "bz_d1_back"
+        },
+        {
+          "text": "“你说得越多，我越怀疑你。”",
+          "effects": {
+            "suspicion": 6,
+            "trust": -2
+          },
+          "next": "bz_d1_back"
+        }
+      ]
+    },
+    "bz_d1_back": {
+      "speaker": "系统",
+      "text": "（白术笑而不语。他说得像真的，但你总觉得缺了一块。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "bz_d2_talk": {
+      "speaker": "白术",
+      "text": "（你追问一件事，他答得滴水不漏）……但我注意到，他撒谎时手指会互扣。",
+      "choices": [
+        {
+          "text": "（记下：他说谎的样子）",
+          "effects": {
+            "suspicion": 5
+          },
+          "set": [
+            "C202"
+          ],
+          "next": "bz_d2_back"
+        },
+        {
+          "text": "（直接点破他）",
+          "effects": {
+            "trust": -5,
+            "anger": 4
+          },
+          "next": "bz_d2_back"
+        }
+      ]
+    },
+    "bz_d2_back": {
+      "speaker": "系统",
+      "text": "（你不确定他说的是真是假。但那个小动作，暴露了他。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "bz_d3_talk": {
+      "speaker": "白术",
+      "text": "（又敷衍过去，却忽然低声）……林师傅那一夜，你知道吗？",
+      "choices": [
+        {
+          "text": "“哪个林师傅？”（你心跳加速）",
+          "effects": {
+            "suspicion": 5,
+            "trust": 3
+          },
+          "set": [
+            "C203"
+          ],
+          "next": "bz_d3_a"
+        },
+        {
+          "text": "“你又在撒谎。”",
+          "effects": {
+            "anger": 5
+          },
+          "next": "bz_d3_back"
+        }
+      ]
+    },
+    "bz_d3_a": {
+      "speaker": "白术",
+      "text": "（摇头，不敢再多说）……不，是我记错了。忘了吧。",
+      "choices": [
+        {
+          "text": "（记下：林诚那一夜）",
+          "effects": {
+            "suspicion": 4
+          },
+          "next": "bz_d3_back"
+        }
+      ]
+    },
+    "bz_d3_back": {
+      "speaker": "系统",
+      "text": "（他提起“林师傅”——那是十年前，一个档案主治医师失踪的夜。你父亲的姓也是林。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "bz_d4_talk": {
+      "speaker": "白术",
+      "text": "（今天你端给他清苦的野菜粥，他慢慢开口）你……是林诚的儿子吧。那份化验，我一直留着。",
+      "choices": [
+        {
+          "text": "“给我看那份化验。”",
+          "effects": {
+            "trust": 5
+          },
+          "set": [
+            "C204"
+          ],
+          "next": "bz_d4_back"
+        },
+        {
+          "text": "“你凭什么觉得我还信你。”",
+          "effects": {
+            "suspicion": 5
+          },
+          "next": "bz_d4_back"
+        }
+      ]
+    },
+    "bz_d4_back": {
+      "speaker": "系统",
+      "text": "（他终于交出一份残缺的化验——上面有你父亲签名的影子。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "bz_d5_talk": {
+      "speaker": "白术",
+      "text": "（长叹）我一直怕说，可你查到这里了。那颗黑纽扣……是监狱长的。林诚就是撞破他才没的。",
+      "choices": [
+        {
+          "text": "“谢谢你告诉我。”",
+          "effects": {
+            "trust": 8,
+            "guilt": 3
+          },
+          "set": [
+            "C205"
+          ],
+          "next": "bz_d5_back"
+        },
+        {
+          "text": "“你早该说的。”",
+          "effects": {
+            "anger": 4,
+            "trust": -3
+          },
+          "next": "bz_d5_back"
+        }
+      ]
+    },
+    "bz_d5_back": {
+      "speaker": "系统",
+      "text": "（化验指向黑纽扣——你握住父亲留下的那枚，仿佛握住了十年前的那一夜。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "bz_d1_meal": {
+      "speaker": "白术",
+      "text": "（他夹起一筷子，停顿）……比我预想的好。这牢里的饭，通常不是给人吃的。",
+      "choices": [
+        {
+          "text": "“我在好好做。”",
+          "effects": {
+            "trust": 4
+          },
+          "next": "__end__"
+        },
+        {
+          "text": "“你吃过更好的？”",
+          "effects": {
+            "suspicion": 4,
+            "trust": 2
+          },
+          "set": [
+            "C201"
+          ],
+          "next": "__end__"
+        }
+      ]
+    },
+    "bz_d2_meal": {
+      "speaker": "白术",
+      "text": "（清苦的野菜粥让他愣住）这种苦……像我家没米时凑合的那口。",
+      "choices": [
+        {
+          "text": "“你常给谁做？”",
+          "effects": {
+            "trust": 5,
+            "guilt": 3
+          },
+          "set": [
+            "C202"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“苦才让人清醒。”",
+          "effects": {
+            "trust": 4
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "bz_d3_meal": {
+      "speaker": "白术",
+      "text": "（他忽然放下碗，声音很轻）你……有点像林师傅。他当年也这样给我盛饭。",
+      "choices": [
+        {
+          "text": "“林师傅是谁？”",
+          "effects": {
+            "suspicion": 5,
+            "trust": 3
+          },
+          "set": [
+            "C203"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“你和他很熟？”",
+          "effects": {
+            "trust": 4,
+            "guilt": 3
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "bz_d4_meal": {
+      "speaker": "白术",
+      "text": "（他吃完，长长呼出一口气）那份化验……我该还给真相了。",
+      "choices": [
+        {
+          "text": "“交给我。”",
+          "effects": {
+            "trust": 6
+          },
+          "set": [
+            "C204"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“你守了很多年。”",
+          "effects": {
+            "trust": 5,
+            "guilt": 4
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "bz_d5_meal": {
+      "speaker": "白术",
+      "text": "（他看着空碗，像做了个决定）林诚的儿子，你比我想的……更值得知道真相。",
+      "choices": [
+        {
+          "text": "“告诉我一切。”",
+          "effects": {
+            "trust": 7,
+            "guilt": 3
+          },
+          "set": [
+            "C205"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“父亲会感谢你的。”",
+          "effects": {
+            "trust": 6
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "ay_d1_talk": {
+      "speaker": "阿萤",
+      "text": "（词不达意，声音碎碎的）我……我见过好多好多字。一页，一页，被划掉了。",
+      "choices": [
+        {
+          "text": "“别怕，慢点说。”",
+          "effects": {
+            "trust": 4,
+            "fear": -2
+          },
+          "next": "ay_d1_back"
+        },
+        {
+          "text": "“你有什么记错了。”",
+          "effects": {
+            "anger": 3,
+            "trust": -3
+          },
+          "next": "ay_d1_back"
+        }
+      ]
+    },
+    "ay_d1_back": {
+      "speaker": "系统",
+      "text": "（她的话不成句，但你捕捉到一个词：“完整的纸”。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "ay_d2_talk": {
+      "speaker": "阿萤",
+      "text": "（你给她一块甜软的面点，她愣住）甜……甜甜的。好多字，一条一条，被划掉了。",
+      "choices": [
+        {
+          "text": "（顺着她）是什么样的字？",
+          "effects": {
+            "trust": 5
+          },
+          "set": [
+            "C302",
+            "C301"
+          ],
+          "next": "ay_d2_back"
+        },
+        {
+          "text": "“别想了，会头疼的。”",
+          "effects": {
+            "trust": 2
+          },
+          "next": "ay_d2_back"
+        }
+      ]
+    },
+    "ay_d2_back": {
+      "speaker": "系统",
+      "text": "（甜食唤起她记忆的碎片——她见过最完整的原件，只是被药物打散了。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "ay_d3_talk": {
+      "speaker": "阿萤",
+      "text": "（忽然抱紧自己，发抖）火……火是坏的。他们说是我放的火。可我怕火。",
+      "choices": [
+        {
+          "text": "“火不是你的错。”",
+          "effects": {
+            "trust": 6,
+            "fear": -3
+          },
+          "set": [
+            "C303"
+          ],
+          "next": "ay_d3_back"
+        },
+        {
+          "text": "“那你为什么要放？”",
+          "effects": {
+            "fear": 6,
+            "anger": 3
+          },
+          "next": "ay_d3_back"
+        }
+      ]
+    },
+    "ay_d3_back": {
+      "speaker": "系统",
+      "text": "（她极度怕火。那场“纵火案”，大概率是监狱长点的，却嫁祸给了她。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "ay_d4_talk": {
+      "speaker": "阿萤",
+      "text": "（在今天一碗暖汤的安抚下，她悄悄说）我……每天都在喝一种药。喝了，就什么也记不清。",
+      "choices": [
+        {
+          "text": "“谁让你喝的？”",
+          "effects": {
+            "suspicion": 5,
+            "trust": 3
+          },
+          "set": [
+            "C304"
+          ],
+          "next": "ay_d4_back"
+        },
+        {
+          "text": "“那我每天给你做好的。”",
+          "effects": {
+            "trust": 6
+          },
+          "set": [
+            "C304"
+          ],
+          "next": "ay_d4_back"
+        }
+      ]
+    },
+    "ay_d4_back": {
+      "speaker": "系统",
+      "text": "（她并不疯，只是被喂了让记忆模糊的药。真正的档案，就封在她脑子里。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "ay_d5_talk": {
+      "speaker": "阿萤",
+      "text": "（目光忽然清明，一字一顿）我记起来了。那份原件的末尾……是监狱长的签名，还有一串，一个个被“删掉”的名字。",
+      "choices": [
+        {
+          "text": "“你救了很多人。”",
+          "effects": {
+            "trust": 8,
+            "guilt": 3
+          },
+          "set": [
+            "C305"
+          ],
+          "next": "ay_d5_back"
+        },
+        {
+          "text": "“你能写下来吗？”",
+          "effects": {
+            "fear": 5,
+            "trust": 5
+          },
+          "set": [
+            "C305"
+          ],
+          "next": "ay_d5_back"
+        }
+      ]
+    },
+    "ay_d5_back": {
+      "speaker": "系统",
+      "text": "（那颗纽扣、那份签名、那串名字——你离整座监狱的真相只有一步了。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "ay_d1_meal": {
+      "speaker": "阿萤",
+      "text": "（她小口咬了一下甜点，愣住）……甜。好甜。我好像……见过这个颜色。",
+      "choices": [
+        {
+          "text": "“慢慢想，不急。”",
+          "effects": {
+            "trust": 4,
+            "fear": -2
+          },
+          "set": [
+            "C301"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“你喜欢就好。”",
+          "effects": {
+            "trust": 3
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "ay_d2_meal": {
+      "speaker": "阿萤",
+      "text": "（含着一口，眼睛忽然清明）好多字……一页一页……被划掉了。",
+      "choices": [
+        {
+          "text": "“什么字？”",
+          "effects": {
+            "trust": 5,
+            "suspicion": 2
+          },
+          "set": [
+            "C302"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "（轻轻握住她的手）",
+          "effects": {
+            "trust": 6
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "ay_d3_meal": {
+      "speaker": "阿萤",
+      "text": "（吃到一半，她缩了缩）……火。那天的火，不是我放的。",
+      "choices": [
+        {
+          "text": "“我知道不是你。”",
+          "effects": {
+            "trust": 7,
+            "fear": -3
+          },
+          "set": [
+            "C303"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“那火是哪儿来的？”",
+          "effects": {
+            "fear": 5,
+            "trust": 2
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "ay_d4_meal": {
+      "speaker": "阿萤",
+      "text": "（碗里的暖汤让她安静下来）我每天……都在喝一种药。喝了就记不清。",
+      "choices": [
+        {
+          "text": "“谁给你的？”",
+          "effects": {
+            "suspicion": 5,
+            "trust": 3
+          },
+          "set": [
+            "C304"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“我给你做不苦的。”",
+          "effects": {
+            "trust": 7,
+            "fear": -2
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "ay_d5_meal": {
+      "speaker": "阿萤",
+      "text": "（她捧着碗，轻轻笑了，眼里有光）我记得了。谢谢你，让我记住了自己。",
+      "choices": [
+        {
+          "text": "“你一直都很勇敢。”",
+          "effects": {
+            "trust": 8
+          },
+          "set": [
+            "C305"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“记住的，别再忘。”",
+          "effects": {
+            "trust": 6,
+            "fear": -3
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "zh_d1_talk": {
+      "speaker": "钟队长",
+      "text": "（低着头，不愿看你）别来看我。我这种人，不配有人问。",
+      "choices": [
+        {
+          "text": "“我只看面相，不看罪名。”",
+          "effects": {
+            "trust": 2
+          },
+          "next": "zh_d1_back"
+        },
+        {
+          "text": "“你确实不配。”",
+          "effects": {
+            "anger": 5,
+            "trust": -3
+          },
+          "next": "zh_d1_back"
+        }
+      ]
+    },
+    "zh_d1_back": {
+      "speaker": "系统",
+      "text": "（钟队长把自己缩成一团。他是全狱最该被唾弃的人，却自己先惩罚了自己。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "zh_d2_talk": {
+      "speaker": "钟队长",
+      "text": "（你给他端来一碗最普通的糙米粥，他愣住）……这个，就够了。我，押送过一个人。",
+      "choices": [
+        {
+          "text": "“押送谁？”",
+          "effects": {
+            "suspicion": 4,
+            "trust": 3
+          },
+          "set": [
+            "C402"
+          ],
+          "next": "zh_d2_a"
+        },
+        {
+          "text": "（不说话，只把粥放下）",
+          "effects": {
+            "trust": 5
+          },
+          "set": [
+            "C402"
+          ],
+          "next": "zh_d2_a"
+        }
+      ]
+    },
+    "zh_d2_a": {
+      "speaker": "钟队长",
+      "text": "（声音发哑）一个……不该被带走的医生。那一夜，我本该多留一步。",
+      "choices": [
+        {
+          "text": "（记下：押送那一夜）",
+          "next": "zh_d2_back"
+        }
+      ]
+    },
+    "zh_d2_back": {
+      "speaker": "系统",
+      "text": "（他说的是十年前——一个档案主治医师被带走的那一夜。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "zh_d3_talk": {
+      "speaker": "钟队长",
+      "text": "（压低声音）有些犯人……不是关着，是“归零”了。档案一改，人就像从没来过。",
+      "choices": [
+        {
+          "text": "“谁干的？”",
+          "effects": {
+            "fear": 5,
+            "trust": 3
+          },
+          "set": [
+            "C403"
+          ],
+          "next": "zh_d3_back"
+        },
+        {
+          "text": "“你在引火上身。”",
+          "effects": {
+            "suspicion": 5
+          },
+          "next": "zh_d3_back"
+        }
+      ]
+    },
+    "zh_d3_back": {
+      "speaker": "系统",
+      "text": "（“归零”——这个词让你脊背发凉。监狱长的链条从不止于杀人，而是“抹除”。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "zh_d4_talk": {
+      "speaker": "钟队长",
+      "text": "（今天他主动开口）他……我最后押的那个人，姓林。那枚黑纽扣，是他被带走时攥在手里的。",
+      "choices": [
+        {
+          "text": "“你为什么不早说！”（你会握住那枚纽扣）",
+          "effects": {
+            "anger": 5,
+            "trust": 3
+          },
+          "set": [
+            "C404"
+          ],
+          "next": "zh_d4_back"
+        },
+        {
+          "text": "（沉默地，把那枚纽扣递到他面前）",
+          "effects": {
+            "trust": 8
+          },
+          "set": [
+            "C404"
+          ],
+          "next": "zh_d4_back"
+        }
+      ]
+    },
+    "zh_d4_back": {
+      "speaker": "系统",
+      "text": "（你父亲留下的黑纽扣——原来他一直在让你握住真相。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "zh_d5_talk": {
+      "speaker": "钟队长",
+      "text": "（终于抬起头）你查到这里，我就都说了：那份“归零”的签名，是监狱长亲手签的。从选人，到要挟，到改档，全是他的手笔。",
+      "choices": [
+        {
+          "text": "“你是个证人。”",
+          "effects": {
+            "trust": 8,
+            "guilt": 4
+          },
+          "set": [
+            "C405"
+          ],
+          "next": "zh_d5_back"
+        },
+        {
+          "text": "“你也帮凶过。”",
+          "effects": {
+            "anger": 4,
+            "trust": -4
+          },
+          "set": [
+            "C405"
+          ],
+          "next": "zh_d5_back"
+        }
+      ]
+    },
+    "zh_d5_back": {
+      "speaker": "系统",
+      "text": "（整条顶罪链完整了。你握住黑纽扣——真相，终于在你手里。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "zh_d1_meal": {
+      "speaker": "钟队长",
+      "text": "（他接过最普通的粥，沉默良久）……这个，就够了。太久没人给我做饭了。",
+      "choices": [
+        {
+          "text": "“吃饱了才有力气想。”",
+          "effects": {
+            "trust": 4
+          },
+          "next": "__end__"
+        },
+        {
+          "text": "（不多言，放下就走）",
+          "effects": {
+            "trust": 3
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "zh_d2_meal": {
+      "speaker": "钟队长",
+      "text": "（粥的温热让他停顿）我押送过一个人……那晚，他也要了一碗这样的粥。",
+      "choices": [
+        {
+          "text": "“那个人是谁？”",
+          "effects": {
+            "suspicion": 4,
+            "trust": 3
+          },
+          "set": [
+            "C402"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "（安静地陪他吃）",
+          "effects": {
+            "trust": 5
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "zh_d3_meal": {
+      "speaker": "钟队长",
+      "text": "（他扒了两口，声音很低）有些犯人，不是关着，是归零了。",
+      "choices": [
+        {
+          "text": "“归零是什么意思？”",
+          "effects": {
+            "fear": 5,
+            "trust": 3
+          },
+          "set": [
+            "C403"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“你都见过？”",
+          "effects": {
+            "suspicion": 5,
+            "guilt": 4
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "zh_d4_meal": {
+      "speaker": "钟队长",
+      "text": "（他终于抬头看你）那枚黑纽扣……是我最后押的那个人攥着的。他姓林。",
+      "choices": [
+        {
+          "text": "“他是我父亲。”",
+          "effects": {
+            "trust": 8,
+            "guilt": 5
+          },
+          "set": [
+            "C404"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“那夜发生了什么？”",
+          "effects": {
+            "fear": 5,
+            "trust": 4
+          },
+          "set": [
+            "C404"
+          ],
+          "next": "__end__"
+        }
+      ]
+    },
+    "zh_d5_meal": {
+      "speaker": "钟队长",
+      "text": "（他吃完，把手里的碗放下，像放下了什么）……林队长，你该知道全部了。那签名，是监狱长亲手签的。",
+      "choices": [
+        {
+          "text": "“谢谢你。”",
+          "effects": {
+            "trust": 8,
+            "guilt": 4
+          },
+          "set": [
+            "C405"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“你帮了真相一把。”",
+          "effects": {
+            "trust": 7,
+            "guilt": 2
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "r_wentian_migeng": {
+      "speaker": "苏晚",
+      "text": "（鼻尖微动，身体不再紧绷）……很久没有吃到这么暖的东西了。谢谢你。",
+      "choices": [
+        {
+          "text": "“想家了？”",
+          "effects": {
+            "trust": 4,
+            "guilt": 3
+          },
+          "set": [
+            "C004"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“只是普通甜汤。”",
+          "effects": {
+            "anger": 3,
+            "suspicion": 2
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "r_qingku_yecaizhou": {
+      "speaker": "苏晚",
+      "text": "（先是警惕地盯住碗）这么苦的东西……你故意的？（低头尝了一口，动作忽然顿住）……是野菜。这种苦法，像我以前……（声音低下去）像家里没米时，凑合煮的那一口。",
+      "choices": [
+        {
+          "text": "（轻声）你以前常给家里人做这个吧。",
+          "effects": {
+            "trust": 5,
+            "guilt": 4
+          },
+          "set": [
+            "C005"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "（试探）你照顾过谁？",
+          "effects": {
+            "suspicion": 6,
+            "guilt": 3
+          },
+          "set": [
+            "C005"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "吃苦是你的习惯，还是你觉得该受罚？",
+          "effects": {
+            "fear": 5,
+            "anger": 3
+          },
+          "set": [
+            "C005"
+          ],
+          "next": "__end__"
+        }
+      ]
+    },
+    "r_jiaohu_tangshui": {
+      "speaker": "苏晚",
+      "text": "（身体一颤）是……我不值得温柔。我知道的。",
+      "choices": [
+        {
+          "text": "“你值得。”",
+          "effects": {
+            "trust": 5,
+            "guilt": 4
+          },
+          "set": [
+            "C006"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "（不语）",
+          "effects": {
+            "fear": 6,
+            "anger": 3
+          },
+          "set": [
+            "C006"
+          ],
+          "next": "__end__"
+        }
+      ]
+    },
+    "r_weila_qingtang": {
+      "speaker": "苏晚",
+      "text": "（微微蹙眉）你是在试探我的口味？",
+      "choices": [
+        {
+          "text": "“只是想让你吃点热的。”",
+          "effects": {
+            "trust": 3,
+            "fear": 2
+          },
+          "set": [
+            "C007"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“清淡惯了，换个味？”",
+          "effects": {
+            "fear": 4,
+            "suspicion": 3
+          },
+          "set": [
+            "C007"
+          ],
+          "next": "__end__"
+        }
+      ]
+    },
+    "r_suitang_miandian": {
+      "speaker": "苏晚",
+      "text": "（目光落在甜点上，喉头轻轻一动）……甜的。（手指蜷了蜷，又松开）我不该碰这个。可这味道……（别过脸）你别看我。",
+      "choices": [
+        {
+          "text": "（温和）偶尔吃一口，不算犯规。",
+          "effects": {
+            "trust": 4,
+            "guilt": 3
+          },
+          "set": [
+            "C002"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "（试探）你以前也常做甜的给谁？",
+          "effects": {
+            "suspicion": 5,
+            "guilt": 4
+          },
+          "set": [
+            "C002"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "（轻笑）怕甜，还是怕想起什么人？",
+          "effects": {
+            "fear": 3,
+            "suspicion": 3
+          },
+          "set": [
+            "C002"
+          ],
+          "next": "__end__"
+        }
+      ]
+    },
+    "r_chongxing_ruangao": {
+      "speaker": "苏晚",
+      "text": "（向后退了一步）你觉得这样很好玩吗？",
+      "choices": [
+        {
+          "text": "“我只是想知道你怕什么。”",
+          "next": "r_bug_2"
+        },
+        {
+          "text": "“不好玩，但有用。”",
+          "effects": {
+            "anger": 6,
+            "fear": 4
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "r_bug_2": {
+      "speaker": "苏晚",
+      "text": "（恐惧很高时脱口）……监狱长。",
+      "choices": [
+        {
+          "text": "（记下：监狱长）",
+          "effects": {
+            "trust": -4,
+            "suspicion": 3
+          },
+          "set": [
+            "clue_signal"
+          ],
+          "next": "__end__"
+        },
+        {
+          "text": "“监狱长是谁？”（她闭口）",
+          "effects": {
+            "suspicion": 4
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "r_hengwen_naigeng": {
+      "speaker": "苏晚",
+      "text": "（捧着温热的奶羹，指尖不再蜷缩）……这么暖的东西，不该出现在牢里。",
+      "choices": [
+        {
+          "text": "“你眼底的愧疚，不是对受害者，是对另一个人，对吗？”",
+          "effects": {
+            "trust": 5
+          },
+          "next": "climax"
+        },
+        {
+          "text": "（只是静静看她吃）",
+          "effects": {
+            "trust": 5,
+            "guilt": 3
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "climax": {
+      "speaker": "苏晚",
+      "text": "（肩膀剧烈颤抖，首次抬头直视你，眼眶泛红）我不认罪，他会死。我认罪了，所有人都安全。我没有选择。",
+      "choices": [
+        {
+          "text": "“你在替真正的凶手顶罪？”",
+          "effects": {
+            "trust": 10
+          },
+          "set": [
+            "C008",
+            "su_wan_truth_break"
+          ],
+          "next": "climax_a"
+        },
+        {
+          "text": "“你保护的人，是你的亲人？”",
+          "effects": {
+            "guilt": 15
+          },
+          "set": [
+            "C009",
+            "su_wan_family_secret"
+          ],
+          "next": "climax_b"
+        },
+        {
+          "text": "“你甘心一辈子背负不属于你的罪名吗？”",
+          "effects": {
+            "suspicion": -8
+          },
+          "set": [
+            "clue_signal"
+          ],
+          "next": "climax_c"
+        }
+      ]
+    },
+    "climax_a": {
+      "speaker": "苏晚",
+      "text": "（摇头）不是凶手……是无辜的人。他只是撞见了不该看的东西。",
+      "choices": [
+        {
+          "text": "（记下）",
+          "next": "__end__"
+        }
+      ]
+    },
+    "climax_b": {
+      "speaker": "苏晚",
+      "text": "是我唯一的弟弟。他才17岁。监狱长说，只要我认罪，就放他走，保他平安。",
+      "choices": [
+        {
+          "text": "（记下）",
+          "next": "__end__"
+        }
+      ]
+    },
+    "climax_c": {
+      "speaker": "苏晚",
+      "text": "（苦笑）甘心不甘心，都不重要了。这里的规则，从来都不讲对错。",
+      "choices": [
+        {
+          "text": "（记下）",
+          "next": "__end__"
+        }
+      ]
+    },
+    "r_hengwen_naigeng_truth": {
+      "speaker": "苏晚",
+      "text": "（泪水滑落）你都看出来了……他是我弟弟，监狱长用他逼我认罪。",
+      "choices": [
+        {
+          "text": "“告诉我，是谁在篡改一切？”",
+          "effects": {
+            "trust": 8,
+            "guilt": 6
+          },
+          "set": [
+            "C008",
+            "C009",
+            "clue_signal",
+            "su_wan_family_secret",
+            "su_wan_truth_break"
+          ],
+          "next": "__end__"
+        }
+      ]
+    },
+    "r_yingli_caomifan": {
+      "speaker": "苏晚",
+      "text": "（扒了两口，眉头紧锁）……你是在敷衍我？",
+      "choices": [
+        {
+          "text": "“不好吃可以不吃。”",
+          "effects": {
+            "anger": 8,
+            "fear": 4,
+            "suspicion": 6,
+            "trust": -10
+          },
+          "set": [
+            "penaltyUsed"
+          ],
+          "next": "react_penalty_warn"
+        },
+        {
+          "text": "（不语）",
+          "effects": {
+            "anger": 6,
+            "suspicion": 4,
+            "trust": -8
+          },
+          "set": [
+            "penaltyUsed"
+          ],
+          "next": "react_penalty_warn"
+        }
+      ]
+    },
+    "react_penalty_warn": {
+      "speaker": "系统",
+      "text": "（惩罚让她更警惕，温柔路线被关，可能吐出假话。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "r_normal": {
+      "speaker": "苏晚",
+      "text": "（平静吃完）今天的饭，没什么特别。",
+      "choices": [
+        {
+          "text": "（稳妥的一顿）",
+          "effects": {
+            "trust": 4,
+            "anger": -2
+          },
+          "next": "__end__"
+        }
+      ]
+    },
+    "react_neutral": {
+      "speaker": "……",
+      "text": "（安静地吃完了这份饭。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    },
+    "no_dialogue": {
+      "speaker": "……",
+      "text": "（对方今天不愿多谈。）",
+      "choices": [
+        {
+          "text": "继续",
+          "next": "__end__"
+        }
+      ]
+    }
+  },
+  "endings": {
+    "ending_truth": {
+      "id": "ending_truth",
+      "title": "真相公开",
+      "badge": "🔍",
+      "text": "五条暗线在你手里汇成一条：老屠的名单、白术的化验、阿萤的记忆、钟队长的证词、苏晚的眼泪。\n你握住父亲留下的黑纽扣，揭穿了监狱长亲手签下的整条顶罪链。父亲失踪十年，终于在他的厨房里昭雪。"
+    },
+    "ending_collapse": {
+      "id": "ending_collapse",
+      "title": "监狱崩坏",
+      "badge": "💢",
+      "text": "你把整座监狱喂成了一片死寂。老屠封闭、白术缄默、阿萤沉入恐惧、苏晚不再开口。\n满意度跌进冰点，监狱长满意地关上了铁门。你连父亲的名字都再难提起——真相，被冷烬永远埋住。"
+    },
+    "ending_hidden": {
+      "id": "ending_hidden",
+      "title": "隐藏线索",
+      "badge": "🕳️",
+      "text": "你进入厨房暗格，黑纽扣的纹路与监狱长办公室完全一致。\n你握住了父亲失踪的第一个实证，也握住了一条通往真相的裂缝。"
+    },
+    "ending_peace": {
+      "id": "ending_peace",
+      "title": "虚假和平",
+      "badge": "⚠️",
+      "text": "这里的人过得不坏。你喂饱了所有人，满意度高得惊人。\n可你拿不出父亲失踪的铁证——黑纽扣孤零零躺在暗格里。你温和地让这座监狱变得“更好”，却没能让它变得“真实”。"
+    },
+    "ending_silence": {
+      "id": "ending_silence",
+      "title": "沉默长夜",
+      "badge": "🌫️",
+      "text": "你喂饱了所有人，却什么都没撬开。五份档案依旧删着字，黑纽扣无处安放。\n监狱长不置可否，这里的夜，从来没有真正亮过。你只得到一个模糊的、不完整的真相。"
+    }
+  },
+  "crossEvents": [
+    {
+      "id": "x1_su_lootu",
+      "day": 3,
+      "type": "event",
+      "desc": "老屠饭后松口，苏晚解锁新话题。",
+      "effects": {
+        "unlock": [
+          "su_d3_adv"
+        ]
+      }
+    },
+    {
+      "id": "x2_aying_baizhu",
+      "day": 4,
+      "type": "event",
+      "desc": "白术的化验让阿萤想起药物真相。",
+      "effects": {
+        "unlock": [
+          "ay_d4"
+        ]
+      }
+    },
+    {
+      "id": "x3_zhong_aying",
+      "day": 4,
+      "type": "event",
+      "desc": "阿萤的原件证明押送记录被改，钟队长动容。",
+      "effects": {
+        "unlock": [
+          "zh_d4"
+        ]
+      }
+    },
+    {
+      "id": "x4_su_zhong",
+      "day": 5,
+      "type": "event",
+      "desc": "钟队长证词让苏晚相信，监狱长亲手签了归零。",
+      "effects": {
+        "unlock": [
+          "su_d5"
+        ]
+      }
+    }
+  ],
+  "nodeTriggers": {
+    "d1_talk": {
+      "trust": {
+        "min": 0
+      }
+    },
+    "d2_talk": {
+      "trust": {
+        "min": 10
+      },
+      "clues": [
+        "C001"
+      ]
+    },
+    "d3_talk": {
+      "trust": {
+        "min": 20
+      }
+    },
+    "su_d4": {
+      "trust": {
+        "min": 30
+      },
+      "clues": [
+        "C009"
+      ]
+    },
+    "su_d5": {
+      "trust": {
+        "min": 40
+      },
+      "clues": [
+        "C010"
+      ]
+    },
+    "lt_d1_talk": {
+      "trust": {
+        "min": 0
+      }
+    },
+    "lt_d2_talk": {
+      "trust": {
+        "min": 8
+      },
+      "clues": [
+        "C101"
+      ]
+    },
+    "lt_d3_talk": {
+      "trust": {
+        "min": 16
+      },
+      "clues": [
+        "C102"
+      ]
+    },
+    "lt_d4_talk": {
+      "trust": {
+        "min": 20
+      },
+      "clues": [
+        "C104"
+      ]
+    },
+    "lt_d5_talk": {
+      "trust": {
+        "min": 24
+      },
+      "clues": [
+        "C105"
+      ]
+    },
+    "bz_d1_talk": {
+      "trust": {
+        "min": 0
+      }
+    },
+    "bz_d2_talk": {
+      "trust": {
+        "min": 12
+      },
+      "clues": [
+        "C201"
+      ]
+    },
+    "bz_d3_talk": {
+      "trust": {
+        "min": 18
+      },
+      "clues": [
+        "C202"
+      ]
+    },
+    "bz_d4_talk": {
+      "trust": {
+        "min": 24
+      },
+      "clues": [
+        "C203"
+      ]
+    },
+    "bz_d5_talk": {
+      "trust": {
+        "min": 28
+      },
+      "clues": [
+        "C204"
+      ]
+    },
+    "ay_d1_talk": {
+      "trust": {
+        "min": 0
+      }
+    },
+    "ay_d2_talk": {
+      "trust": {
+        "min": 15
+      },
+      "clues": [
+        "C301"
+      ]
+    },
+    "ay_d3_talk": {
+      "trust": {
+        "min": 20
+      },
+      "clues": [
+        "C302"
+      ]
+    },
+    "ay_d4_talk": {
+      "trust": {
+        "min": 26
+      },
+      "clues": [
+        "C303"
+      ]
+    },
+    "ay_d5_talk": {
+      "trust": {
+        "min": 30
+      },
+      "clues": [
+        "C304"
+      ]
+    },
+    "zh_d1_talk": {
+      "trust": {
+        "min": 0
+      }
+    },
+    "zh_d2_talk": {
+      "trust": {
+        "min": 10
+      }
+    },
+    "zh_d3_talk": {
+      "trust": {
+        "min": 16
+      }
+    },
+    "zh_d4_talk": {
+      "trust": {
+        "min": 20
+      }
+    },
+    "zh_d5_talk": {
+      "trust": {
+        "min": 26
+      }
+    },
+    "su_d1_meal": {
+      "mealTags": [
+        "温柔",
+        "安慰"
+      ],
+      "trust": {
+        "min": 5
+      }
+    },
+    "su_d2_meal": {
+      "mealTags": [
+        "温暖",
+        "家庭"
+      ],
+      "trust": {
+        "min": 15
+      }
+    },
+    "su_d3_meal": {
+      "mealTags": [
+        "温柔",
+        "家庭"
+      ],
+      "trust": {
+        "min": 20
+      }
+    },
+    "su_d4_meal": {
+      "mealTags": [
+        "温柔",
+        "家庭"
+      ],
+      "trust": {
+        "min": 35
+      },
+      "clues": [
+        "C010"
+      ]
+    },
+    "su_d5_meal": {
+      "mealTags": [
+        "温柔",
+        "安慰"
+      ],
+      "trust": {
+        "min": 40
+      }
+    },
+    "lt_d1_meal": {
+      "mealTags": [
+        "朴素",
+        "中性"
+      ],
+      "trust": {
+        "min": 0
+      }
+    },
+    "lt_d2_meal": {
+      "mealTags": [
+        "朴素"
+      ],
+      "trust": {
+        "min": 12
+      }
+    },
+    "lt_d3_meal": {
+      "mealTags": [
+        "朴素",
+        "中性"
+      ],
+      "trust": {
+        "min": 16
+      }
+    },
+    "lt_d4_meal": {
+      "mealTags": [
+        "朴素",
+        "中性"
+      ],
+      "trust": {
+        "min": 20
+      }
+    },
+    "lt_d5_meal": {
+      "mealTags": [
+        "朴素"
+      ],
+      "trust": {
+        "min": 24
+      }
+    },
+    "bz_d1_meal": {
+      "mealTags": [
+        "记忆",
+        "清醒"
+      ],
+      "trust": {
+        "min": 5
+      }
+    },
+    "bz_d2_meal": {
+      "mealTags": [
+        "记忆",
+        "清醒",
+        "朴素"
+      ],
+      "trust": {
+        "min": 12
+      }
+    },
+    "bz_d3_meal": {
+      "mealTags": [
+        "记忆",
+        "朴素"
+      ],
+      "trust": {
+        "min": 18
+      }
+    },
+    "bz_d4_meal": {
+      "mealTags": [
+        "朴素",
+        "记忆"
+      ],
+      "trust": {
+        "min": 24
+      }
+    },
+    "bz_d5_meal": {
+      "mealTags": [
+        "记忆",
+        "朴素"
+      ],
+      "trust": {
+        "min": 28
+      }
+    },
+    "ay_d1_meal": {
+      "mealTags": [
+        "温柔",
+        "童年"
+      ],
+      "trust": {
+        "min": 5
+      }
+    },
+    "ay_d2_meal": {
+      "mealTags": [
+        "温柔",
+        "童年",
+        "家庭"
+      ],
+      "trust": {
+        "min": 15
+      }
+    },
+    "ay_d3_meal": {
+      "mealTags": [
+        "温柔",
+        "童年",
+        "安全感"
+      ],
+      "trust": {
+        "min": 20
+      }
+    },
+    "ay_d4_meal": {
+      "mealTags": [
+        "温柔",
+        "家庭",
+        "安全感"
+      ],
+      "trust": {
+        "min": 26
+      }
+    },
+    "ay_d5_meal": {
+      "mealTags": [
+        "温柔",
+        "童年"
+      ],
+      "trust": {
+        "min": 30
+      }
+    },
+    "zh_d1_meal": {
+      "mealTags": [
+        "中性",
+        "朴素"
+      ],
+      "trust": {
+        "min": 5
+      }
+    },
+    "zh_d2_meal": {
+      "mealTags": [
+        "中性",
+        "朴素"
+      ],
+      "trust": {
+        "min": 10
+      }
+    },
+    "zh_d3_meal": {
+      "mealTags": [
+        "中性",
+        "朴素"
+      ],
+      "trust": {
+        "min": 16
+      }
+    },
+    "zh_d4_meal": {
+      "mealTags": [
+        "中性",
+        "朴素"
+      ],
+      "trust": {
+        "min": 20
+      }
+    },
+    "zh_d5_meal": {
+      "mealTags": [
+        "中性",
+        "朴素"
+      ],
+      "trust": {
+        "min": 26
+      }
+    },
+    "x1_su_lootu": {
+      "prisoner": "laotu",
+      "flags": [
+        "lt_trust20"
+      ],
+      "clues": [
+        "C102"
+      ]
+    },
+    "x2_aying_baizhu": {
+      "prisoner": "baizhu",
+      "clues": [
+        "C203"
+      ]
+    },
+    "x3_zhong_aying": {
+      "prisoner": "aying",
+      "clues": [
+        "C304"
+      ]
+    },
+    "x4_su_zhong": {
+      "prisoner": "zhong",
+      "clues": [
+        "C405"
+      ]
+    }
+  },
+  "narration": {
+    "intro": {
+      "speaker": "旁白",
+      "text": "灰烬惩戒监狱，厨房是唯一暖黄的地方。\n你是这里唯一的厨师，林烬。你入职不为救赎别人——只为查清父亲十年前在这里的失踪。"
+    },
+    "dayOpen": {
+      "1": [
+        {
+          "speaker": "广播",
+          "text": "灰烬惩戒监狱，今日膳食对接：5 名犯人。灰区307 苏晚、灰区211 老屠、灰区089 白术、灰区174 阿萤、灰区003 钟队长。"
+        },
+        {
+          "speaker": "艾拉",
+          "text": "（压低声音）五个人，五份档案，都删过字。你照顾好所有人，才能靠近其中任何一个。"
+        },
+        {
+          "speaker": "林烬",
+          "text": "五个人……你查父亲的事，也越来越近了。"
+        }
+      ],
+      "2": [
+        {
+          "speaker": "艾拉",
+          "text": "（压低声音）冷区的人从不说软谎，他们只藏真话。你昨天撬开的，是她最软的那层。"
+        },
+        {
+          "speaker": "林烬",
+          "text": "那就再软一点，剖开看看。"
+        }
+      ],
+      "3": [
+        {
+          "speaker": "监狱长",
+          "text": "苏晚今天要转移。"
+        },
+        {
+          "speaker": "林烬",
+          "text": "转移到哪里？"
+        },
+        {
+          "speaker": "监狱长",
+          "text": "你只需要准备最后一顿饭。"
+        },
+        {
+          "speaker": "林烬",
+          "text": "最后一顿饭……那就别做得太好吃。"
+        }
+      ],
+      "4": [
+        {
+          "speaker": "艾拉",
+          "text": "（她塞给你一张纸条）今晚的暗号是 23:15。有人会把真相递到你手上——只要你压得住整座监狱的不满。"
+        },
+        {
+          "speaker": "林烬",
+          "text": "23:15……我记下了。"
+        }
+      ],
+      "5": [
+        {
+          "speaker": "监狱长",
+          "text": "今天是最后一顿饭。你做得好，整座监狱都安稳。"
+        },
+        {
+          "speaker": "林烬",
+          "text": "安稳……我要的是真相。"
+        }
+      ]
+    },
+    "d1_end_tame": {
+      "speaker": "旁白",
+      "text": "苏晚吃完了那碗温甜的东西。她没有道谢，只在餐盘边缘留了一小枚没动过的桂花——像给某个不在场的人留的位置。"
+    },
+    "d2_end": {
+      "speaker": "旁白",
+      "text": "夜里你清洗餐盘，在操作台缝隙摸到一枚陌生的黑色纽扣——纹路像极了父亲当年的工作服配件。"
+    },
+    "d3_end": {
+      "speaker": "旁白",
+      "text": "黑色纽扣的纹路与监狱长办公室一致。你终于明白，父亲的失踪、整座监狱的冤案，都被同一只手按进了灰烬里。"
+    },
+    "d4_end": {
+      "speaker": "旁白",
+      "text": "23:15，走廊尽头传来三下敲击。那颗黑纽扣的纹路，与监狱长办公室的门柄一模一样。"
+    },
+    "d5_end": {
+      "speaker": "旁白",
+      "text": "你站在灶台前，握住父亲留下的黑纽扣。五条暗线汇成一条——是时候了。"
+    }
+  },
+  "truthClues": [
+    "C001",
+    "C203",
+    "C405"
+  ]
+}
